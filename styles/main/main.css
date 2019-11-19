@@ -1,0 +1,54 @@
+body {
+  background: rgb(174,224,238);
+  background: radial-gradient(circle, rgba(174,224,238,1) 0%, rgba(132,177,207,0.9867297260701156) 100%);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  max-width: 100%;
+  justify-content: center;
+}
+
+.fish {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 65%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.fishies__card {
+  flex-basis: 30%;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.highlightFish {
+  background-color: aquamarine;
+  color: aqua;
+}
+
+aside {
+  flex-basis: 30%;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.tip {
+  display: flex;
+  flex-direction: column;
+}
+
+.tips {
+  display: flex;
+  flex-basis: 30%;
+}
+
+.highlightTips {
+  border: 2px dotted aqua;
+}
