@@ -11,7 +11,7 @@ const fishCollection = [
     species: "Not a Sea McNugget",
     location: "USA",
     length: "6'2",
-    imgage: "sam.jpg"
+    image: "sam.jpg"
   },
   {
     name: "Glass",
