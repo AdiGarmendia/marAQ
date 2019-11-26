@@ -8,7 +8,7 @@ const locListComponent = () => {
   const locs = useLoc()
   
   contentElement.innerHTML += `
-    <section class="locList">
+    <section class="locsList">
       ${
         locs.map(
           (currentLoc) => {

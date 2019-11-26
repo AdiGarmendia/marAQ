@@ -6,27 +6,43 @@ body {
 
 .tips {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   border: 3px solid black;
   padding: 0.2em;
   margin: 0.2em;
   justify-content: center;
-  justify-content: space-evenly;
 }
 
-.crimes {
+.tip {
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.crime {
-  flex-basis: 30%;
+.locList {
+  display: flex;
   border: 3px solid black;
   padding: 0.2em;
   margin: 0.2em;
   justify-content: center;
 }
+.locsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.loc {
+  flex-basis: 28%;
+  border: 3px solid black;
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
 .info {
   flex-basis: 30%;
   justify-content: center;
